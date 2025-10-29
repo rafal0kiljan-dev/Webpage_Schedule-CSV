@@ -1,4 +1,4 @@
-> # A website that will help you plan your schedule
+# A website that will help you plan your schedule
 
 > # Install:
 > - Java
