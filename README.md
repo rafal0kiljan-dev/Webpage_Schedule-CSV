@@ -1,6 +1,5 @@
-> # Blender plugin for creating walking animations using machine learning 🤖 🦿⚙️🦿
+> # A website that will help you plan your schedule
 
-> [!IMPORTANT]
 > # Install:
 > - Java
 > - Maven
