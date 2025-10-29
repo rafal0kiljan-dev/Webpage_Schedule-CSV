@@ -14,5 +14,5 @@
 > - java -jar demo-0.0.1-SNAPSHOT.jar
 # Build front-end
 In directory: project/fronted/file-upload
- - npm
+ - npm install
  - ng serve
