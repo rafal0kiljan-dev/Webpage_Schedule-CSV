@@ -127,17 +127,17 @@ uploadFile() {
   ).subscribe({
     next: async (blob) => {
 
-      // 1️ blob → text
+     
       const text = await blob.text();
 
-      // 2️ CSV → obiekty
+      
       this.data = this.parseCsv(text);
 	  
 	  this.timelineStart = Math.min(
   ...this.data.map(d => d.start.getTime())
 );
 
-      // 3️ (opcjonalnie) pobierz plik
+     
       this.downloadBlob(blob);
 
       this.message = '';
@@ -149,3 +149,4 @@ uploadFile() {
   });
 }
 }
+
