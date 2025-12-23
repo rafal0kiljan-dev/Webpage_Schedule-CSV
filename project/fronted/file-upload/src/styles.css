@@ -1,21 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   background-image: url('img.png');
+
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: cover;
   
 }
 h1 {
-	color: #ff6e00;
+	color: #ff6347;
 	font-size: 40px;
 	text-align: center;
-	font-family: Copperplate, Papyrus, fantasy;
+	font-weight: bolder;
+	font-family: Ariel Black, monospace;
 }
 .p-4 {
 	text-align: center;
-	font-family: "Lucida Console", "Courier New", monospace;
+	font-family: Ariel Black, monospace;
 }
+/*
 .uploadFile() {
   background-color: orange;
   border: none;
@@ -28,6 +31,7 @@ h1 {
   margin: 4px 2px;
   cursor: pointer;
 }
+*/
 .button {
   background-color: orange;
   border: none;
@@ -54,3 +58,36 @@ h1 {
   padding: 10px;
 }
 */
+
+  .gantt {
+    margin-top: 30px;
+  }
+
+  .row {
+	position: relative;
+    display: flex;
+    align-items: center;
+    /*margin-bottom: 6px;*/
+	background: rgba(255, 255, 255, 0.5);
+	padding: 2px 6px;
+    border-radius: 8px;
+	
+	
+  }
+
+  .label {
+    width: 180px;
+    font-size: 13px;
+  }
+
+  .bar { 
+    height: 24px;
+    background: #ff6e00; /*#1976d2; */
+    color: black;
+	margin-top: 8px;
+	font-size: 13px;
+	white-space: pre;
+   /* padding: 2px 6px;
+    border-radius: 4px; */
+
+  }
