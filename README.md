@@ -16,3 +16,7 @@ In directory: project/demo
 In directory: project/fronted/file-upload
  - npm install
  - ng serve
+
+# How work 
+- Example file you can find in /project/example
+- Run scipt /project/demo/craete_conf_file.sh or /project/demo/craete_conf_file.bat
