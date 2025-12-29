@@ -6,7 +6,7 @@
 - Nodejs
 - Angular
 # Build back-end
-> In directory: project/demo
+In directory: project/demo
 > - mvn clean package
 > - run create_conf_file.bat or create_conf_file.sh
 > - 
